@@ -1,7 +1,7 @@
 'use strict';
 const {electron,dialog,app,BrowserWindow,shell,clipboard,Menu,webFrame} = require('electron');
 const {ipcMain} = require('electron')
-var ZOOMSDKMOD = require("../zoom/mac/zoom_sdk.js")
+var ZOOMSDKMOD = require(__dirname+"/static/zoom/mac/zoom_sdk.js")
 var initoptions={
     path:'',
     threadsafemode:0,

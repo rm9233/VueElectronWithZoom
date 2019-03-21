@@ -1,0 +1,78 @@
+{
+  "_from": "memwatch-next@*",
+  "_id": "memwatch-next@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-IREFD5qQbgqi1ypOwPAInHhyb48=",
+  "_location": "/memwatch-next",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "memwatch-next@*",
+    "name": "memwatch-next",
+    "escapedName": "memwatch-next",
+    "rawSpec": "*",
+    "saveSpec": null,
+    "fetchSpec": "*"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/memwatch-next/-/memwatch-next-0.3.0.tgz",
+  "_shasum": "2111050f9a906e0aa2d72a4ec0f0089c78726f8f",
+  "_spec": "memwatch-next@*",
+  "_where": "/Users/renming/Desktop/project/lingni/code/VueElectronWithZoom/src/zoom/mac/nodobjc",
+  "author": {
+    "name": "Lloyd Hilaiel",
+    "url": "http://lloyd.io"
+  },
+  "bugs": {
+    "url": "https://github.com/marcominetti/node-memwatch/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Jed Parsons",
+      "url": "@jedp"
+    },
+    {
+      "name": "Jeff Haynie",
+      "url": "@jhaynie"
+    },
+    {
+      "name": "Justin Matthews",
+      "url": "@jmatthewsr-ms"
+    }
+  ],
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.3.2"
+  },
+  "deprecated": false,
+  "description": "Keep an eye on your memory usage, and discover and isolate leaks.",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/marcominetti/node-memwatch#readme",
+  "licenses": [
+    {
+      "type": "wtfpl"
+    }
+  ],
+  "main": "include.js",
+  "name": "memwatch-next",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcominetti/node-memwatch.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "mocha tests --reporter spec"
+  },
+  "version": "0.3.0"
+}

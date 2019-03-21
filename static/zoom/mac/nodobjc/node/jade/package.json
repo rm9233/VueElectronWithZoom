@@ -1,0 +1,68 @@
+{
+  "_from": "jade@0.25.x",
+  "_id": "jade@0.25.0",
+  "_inBundle": false,
+  "_integrity": "sha1-pZ8vTgeqP/imzi51nvA5hmhkoa4=",
+  "_location": "/jade",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "jade@0.25.x",
+    "name": "jade",
+    "escapedName": "jade",
+    "rawSpec": "0.25.x",
+    "saveSpec": null,
+    "fetchSpec": "0.25.x"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jade/-/jade-0.25.0.tgz",
+  "_shasum": "a59f2f4e07aa3ff8a6ce2e759ef039866864a1ae",
+  "_spec": "jade@0.25.x",
+  "_where": "/Users/renming/Desktop/project/lingni/code/VueElectronWithZoom/src/zoom/mac/nodobjc",
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "bin": {
+    "jade": "./bin/jade"
+  },
+  "bugs": {
+    "url": "https://github.com/visionmedia/jade/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commander": "0.5.2",
+    "mkdirp": "0.3.0"
+  },
+  "deprecated": "Jade has been renamed to pug, please install the latest version of pug instead of jade",
+  "description": "Jade template engine",
+  "devDependencies": {
+    "less": "*",
+    "markdown": "*",
+    "mocha": "*",
+    "should": "*",
+    "stylus": "*",
+    "uglify-js": "*",
+    "uubench": "*"
+  },
+  "engines": {
+    "node": ">= 0.1.98"
+  },
+  "homepage": "https://github.com/visionmedia/jade#readme",
+  "main": "./index.js",
+  "man": [
+    "./jade.1"
+  ],
+  "name": "jade",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/jade.git"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "version": "0.25.0"
+}

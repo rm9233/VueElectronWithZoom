@@ -78,6 +78,7 @@ function startRenderer () {
 }
 
 function startMain () {
+
   return new Promise((resolve, reject) => {
     process.env.NODE_ENV = "development";
     let mdir =  __dirname.substring(0,__dirname.length-".electron-vue".length);

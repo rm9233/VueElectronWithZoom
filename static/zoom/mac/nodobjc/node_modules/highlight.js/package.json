@@ -1,0 +1,60 @@
+{
+  "_from": "highlight.js@1",
+  "_id": "highlight.js@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-XWgcrGpnPune6I/t73ydxm9A7Yg=",
+  "_location": "/highlight.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "highlight.js@1",
+    "name": "highlight.js",
+    "escapedName": "highlight.js",
+    "rawSpec": "1",
+    "saveSpec": null,
+    "fetchSpec": "1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/highlight.js/-/highlight.js-1.2.0.tgz",
+  "_shasum": "5d681cac6a673ee9dee88fedef7c9dc66f40ed88",
+  "_spec": "highlight.js@1",
+  "_where": "/Users/renming/Desktop/project/lingni/code/VueElectronWithZoom/src/zoom/mac/nodobjc",
+  "author": {
+    "name": "Greg Allen",
+    "email": "@jgaui",
+    "url": "http://jga.me"
+  },
+  "bin": {
+    "hljs": "./bin/hljs"
+  },
+  "bugs": {
+    "url": "https://github.com/jgallen23/highlight.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commander": "*"
+  },
+  "deprecated": false,
+  "description": "A node clone of highlight.js syntax highlighter library",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "https://github.com/jgallen23/highlight.js",
+  "keywords": [
+    "syntax",
+    "highlighter"
+  ],
+  "name": "highlight.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jgallen23/highlight.js.git"
+  },
+  "version": "1.2.0"
+}
