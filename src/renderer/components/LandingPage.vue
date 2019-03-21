@@ -21,9 +21,9 @@
         openZoom () {
             console.log("open Zoom??");
             ipcRenderer.send('joinZoom', 'initKey', "F1HQxEQVie0nZDTpW7LqcpduBn7yEytBX8cl","E7YRwkEFebAneVqNaKfqB5m8x2mxoiRZkEAr");
-            setTimeout(()=>{
-                ipcRenderer.send('joinZoom', 'startliveTelecast', 943465203, "我要吃水果", "pUKBnI", 2695)
-            },5000);
+          setTimeout(()=>{
+                ipcRenderer.send('joinZoom', 'startliveTelecast', 419947286, "我要吃水果", "qu4rAwf", 2695)
+            },10000);
       }
     }
   }
