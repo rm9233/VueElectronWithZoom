@@ -13,21 +13,11 @@ $.import('AppKit')
 $.import('StoreKit')
 $.import('CoreFoundation')
 
-
-if(__filename.indexOf("app.asar")>0){
-    $.import(__filename.substring(0,__filename.indexOf("app.asar"))+"app.asar/dist/electron/static/zoom/mac"+'/macNativeModules/ZoomSDK/util.framework');
-    $.import(__filename.substring(0,__filename.indexOf("app.asar"))+"app.asar/dist/electron/static/zoom/mac"+'/macNativeModules/ZoomSDK/ZCommonUI.framework');
-    $.import(__filename.substring(0,__filename.indexOf("app.asar"))+"app.asar/dist/electron/static/zoom/mac"+'/macNativeModules/ZoomSDK/cmmlib.framework');
-    $.import(__filename.substring(0,__filename.indexOf("app.asar"))+"app.asar/dist/electron/static/zoom/mac"+'/macNativeModules/ZoomSDK/ZoomSDKChatUI.framework');
-    $.import(__filename.substring(0,__filename.indexOf("app.asar"))+"app.asar/dist/electron/static/zoom/mac"+'/macNativeModules/ZoomSDK/ZoomSDK.framework');
-
-}else{
-    $.import(path.resolve(__filename,'../../macNativeModules/ZoomSDK/util.framework'));
-    $.import(path.resolve(__filename,'../../macNativeModules/ZoomSDK/ZCommonUI.framework'));
-    $.import(path.resolve(__filename,'../../macNativeModules/ZoomSDK/cmmlib.framework'));
-    $.import(path.resolve(__filename,'../../macNativeModules/ZoomSDK/ZoomSDKChatUI.framework'));
-    $.import(path.resolve(__filename,'../../macNativeModules/ZoomSDK/ZoomSDK.framework'));
-}
+$.import(path.resolve(__filename,'../../../../../../../node_modules/ZoomSDK/util.framework'));
+$.import(path.resolve(__filename,'../../../../../../../node_modules/ZoomSDK/ZCommonUI.framework'));
+$.import(path.resolve(__filename,'../../../../../../../node_modules/ZoomSDK/cmmlib.framework'));
+$.import(path.resolve(__filename,'../../../../../../../node_modules/ZoomSDK/ZoomSDKChatUI.framework'));
+$.import(path.resolve(__filename,'../../../../../../../node_modules/ZoomSDK/ZoomSDK.framework'));
 
 
 var zoomSDK = $.ZoomSDK('sharedSDK');

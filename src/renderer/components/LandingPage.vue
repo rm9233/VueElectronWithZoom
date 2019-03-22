@@ -4,7 +4,7 @@
     <main>
       <div class="right-side">
         <div class="doc">
-          <button @click="openZoom()">Open Zoom</button><br><br>
+          <button @click="openZoom()">Open Zoom!</button><br><br>
         </div>
       </div>
     </main>
