@@ -1,22 +1,15 @@
-# my-project
+Mac 打包<br />
+第一步 ：修改  package-mac.json 为 package.json <br />
+第二步： 安装 npm install <br />
+第三步： npm run postinstallWithMac (copy zoom原生库到 nodemodule中)<br />
+第四步： npm run dev:mac <br />
 
-> An electron-vue project
+打包：     npm run build:mac
 
-#### Build Setup
+windows 打包<br />
+第一步 ：修改  package-windows.json 为 package.json <br />
+第二步： 安装 npm install <br />
+第三步： copy static 到 dist/electron 文件目录下<br />
+第四步： npm run dev:windows<br />
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:9080
-npm run dev
-
-# build electron application for production
-npm run build
-
-
-```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+打包：    npm run build:windows<br />
