@@ -6,7 +6,9 @@ build/*
 npm-debug.log
 npm-debug.log.*
 thumbs.db
+pac
 !.gitkeep
 /build/
 /dist/
 /node_modules/
+/package.json

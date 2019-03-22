@@ -49,16 +49,6 @@ function build() {
         process.exit()
     })
 
-    // pack(mainConfig).then(result => {
-    //   results += result + '\n\n'
-    //   m.success('main')
-    // }).catch(err => {
-    //   m.error('main')
-    //   console.log(`\n  ${errorLog}failed to build main process`)
-    //   console.error(`\n${err}\n`)
-    //   process.exit(1)
-    // })
-
     mainPack();
 
     pack(rendererConfig).then(result => {
@@ -83,14 +73,6 @@ function mainPack() {
             fs.writeFile(mdir + "/dist/electron/main.js", data, function (err) {
                 if (err == null) {
                     resolve();
-                    // process.exec('cp -Rf ../static ../dist/electron/', function (error, stdout, stderr) {
-                    //         if (error !== null) {
-                    //
-                    //         }
-                    //         resolve();
-                    //     }
-                    // );
-                    reject();
                 }
                 reject();
             })
