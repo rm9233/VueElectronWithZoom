@@ -1,3 +1,5 @@
+VueElectron 整合zoom的解决方案<br />
+
 Mac 打包<br />
 第一步 ：修改  package-mac.json 为 package.json <br />
 第二步： 安装 npm install <br />
